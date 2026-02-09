@@ -10,12 +10,14 @@ export default defineConfig([
     env,
     fixedExtension: false,
     platform: "node",
+    sourcemap: true,
   },
   {
     entry: "src/entry.ts",
     env,
     fixedExtension: false,
     platform: "node",
+    sourcemap: true,
   },
   {
     entry: "src/infra/warning-filter.ts",
@@ -29,12 +31,14 @@ export default defineConfig([
     env,
     fixedExtension: false,
     platform: "node",
+    sourcemap: true,
   },
   {
     entry: "src/extensionAPI.ts",
     env,
     fixedExtension: false,
     platform: "node",
+    sourcemap: true,
   },
   {
     entry: ["src/hooks/bundled/*/handler.ts", "src/hooks/llm-slug-generator.ts"],
