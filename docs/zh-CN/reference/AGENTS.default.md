@@ -118,6 +118,7 @@ git commit -m "Add Clawd workspace"
 - **OpenAI Whisper** — 本地语音转文字，用于快速听写和语音邮件转录。
 - **Gemini CLI** — 从终端使用 Google Gemini 模型进行快速问答。
 - **bird** — X/Twitter CLI，无需浏览器即可发推、回复、阅读话题和搜索。
+- **ffmpeg** — 视频和音频编辑 — 裁剪、转换、滤镜、合并、提取音频、创建 GIF 和媒体检查。
 - **agent-tools** — 用于自动化和辅助脚本的实用工具包。
 
 ## 使用说明
