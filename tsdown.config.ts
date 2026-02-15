@@ -20,6 +20,13 @@ export default defineConfig([
     sourcemap: true,
   },
   {
+    // Ensure this module is bundled as an entry so legacy CLI shims can resolve its exports.
+    entry: "src/cli/daemon-cli.ts",
+    env,
+    fixedExtension: false,
+    platform: "node",
+  },
+  {
     entry: "src/infra/warning-filter.ts",
     env,
     fixedExtension: false,
