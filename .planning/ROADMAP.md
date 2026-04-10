@@ -13,8 +13,8 @@
 
 Plans:
 
-- [ ] 01-01-PLAN.md — Create agent, workspace, identity, auth profiles
-- [ ] 01-02-PLAN.md — Add routing header to web app, restart gateway, verify connectivity
+- [x] 01-01-PLAN.md — Create agent, workspace, identity, auth profiles
+- [x] 01-02-PLAN.md — Add routing header to web app, restart gateway, verify connectivity
 
 **Success criteria:**
 
