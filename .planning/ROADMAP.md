@@ -43,6 +43,13 @@ Plans:
 
 **Requirements:** DISC-01, DISC-02, DISC-03, DISC-04, DISC-05, CONV-01, CONV-02, CONV-03, CONV-04, CONV-05, OUT-01, OUT-02, OUT-03, OUT-04, OUT-05
 
+**Plans:** 2 plans
+
+Plans:
+
+- [ ] 02-01-PLAN.md — Write SOUL.md persona and BOOTSTRAP.md first-contact greeting
+- [ ] 02-02-PLAN.md — Write AGENTS.md discovery protocol, question bank, output format
+
 **Success criteria:**
 
 - Agent greets client warmly and guides through 5-phase discovery
@@ -95,4 +102,4 @@ Plans:
 ---
 
 _Roadmap created: 2026-04-10_
-_Last updated: 2026-04-10 after Phase 1 planning_
+_Last updated: 2026-04-10 after Phase 2 planning_
