@@ -47,8 +47,8 @@ Plans:
 
 Plans:
 
-- [ ] 02-01-PLAN.md — Write SOUL.md persona and BOOTSTRAP.md first-contact greeting
-- [ ] 02-02-PLAN.md — Write AGENTS.md discovery protocol, question bank, output format
+- [x] 02-01-PLAN.md — Write SOUL.md persona and BOOTSTRAP.md first-contact greeting
+- [x] 02-02-PLAN.md — Write AGENTS.md discovery protocol, question bank, output format
 
 **Success criteria:**
 
