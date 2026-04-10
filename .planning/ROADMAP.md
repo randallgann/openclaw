@@ -78,6 +78,12 @@ Plans:
 
 **Requirements:** COMPAT-01, COMPAT-02, COMPAT-03, COMPAT-04
 
+**Plans:** 1 plan
+
+Plans:
+
+- [ ] 03-01-PLAN.md — End-to-end manual walkthrough: SSE streaming, full discovery conversation, session continuity
+
 **Success criteria:**
 
 - Client receives email invite, clicks link, enters chat, completes full discovery — all through live infrastructure
@@ -102,4 +108,4 @@ Plans:
 ---
 
 _Roadmap created: 2026-04-10_
-_Last updated: 2026-04-10 after Phase 2 planning_
+_Last updated: 2026-04-10 after Phase 3 planning_
