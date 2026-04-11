@@ -82,7 +82,7 @@ Plans:
 
 Plans:
 
-- [ ] 03-01-PLAN.md — End-to-end manual walkthrough: SSE streaming, full discovery conversation, session continuity
+- [x] 03-01-PLAN.md — End-to-end manual walkthrough: SSE streaming, full discovery conversation, session continuity
 
 **Success criteria:**
 
