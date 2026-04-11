@@ -14,19 +14,19 @@ The agent must gather complete, actionable website requirements from non-technic
 
 <!-- Shipped and confirmed valuable. -->
 
-(None yet — ship to validate)
+- Dedicated openclaw agent with isolated workspace — v1.0
+- Warm-consultant personality (SOUL.md, AGENTS.md) — v1.0
+- Web-design discovery framework (19 questions, 5-phase progressive disclosure) — v1.0
+- Conversational flow that adapts based on client responses — v1.0
+- Final markdown brief generated in agent workspace — v1.0
+- Cloudflare tunnel redirect from main agent to onboarding agent — v1.0
+- Compatible with existing web chat contract (SSE, /v1/responses, user:token routing) — v1.0
 
 ### Active
 
 <!-- Current scope. Building toward these. -->
 
-- [x] Dedicated openclaw agent with isolated workspace — Validated in Phase 1
-- [ ] Warm-consultant personality (SOUL.md, AGENTS.md)
-- [ ] Web-design discovery framework based on industry best practices (beyond current 10 questions)
-- [ ] Conversational flow that adapts based on client responses (not rigid script)
-- [ ] Final markdown brief generated in agent workspace when session completes
-- [x] Cloudflare tunnel redirect from main agent to onboarding agent — Validated in Phase 1
-- [x] Compatible with existing web chat contract (SSE, /v1/responses, user:token routing) — Validated in Phase 1
+(None — v1.0 shipped. Use /gsd-new-milestone for next cycle.)
 
 ### Out of Scope
 
@@ -56,13 +56,15 @@ The agent must gather complete, actionable website requirements from non-technic
 
 ## Key Decisions
 
-| Decision                            | Rationale                                                                | Outcome   |
-| ----------------------------------- | ------------------------------------------------------------------------ | --------- |
-| Standalone agent (no multi-agent)   | Simpler v1, avoid cross-agent complexity                                 | — Pending |
-| Warm consultant personality         | Clients are non-technical, need approachable tone                        | — Pending |
-| Research-driven discovery framework | Current 10 questions are basic; best practices will surface deeper needs | — Pending |
-| Markdown brief output               | Quick to implement, Randall reads these directly                         | — Pending |
+| Decision                                     | Rationale                                                                | Outcome |
+| -------------------------------------------- | ------------------------------------------------------------------------ | ------- |
+| Standalone agent (no multi-agent)            | Simpler v1, avoid cross-agent complexity                                 | Good    |
+| Warm consultant personality                  | Clients are non-technical, need approachable tone                        | Good    |
+| Research-driven discovery framework          | Current 10 questions are basic; best practices will surface deeper needs | Good    |
+| Markdown brief output                        | Quick to implement, Randall reads these directly                         | Good    |
+| Agent routing via x-openclaw-agent-id header | Web/HTTP not a channel; header is simplest                               | Good    |
+| Session continuity via user:token            | 30-day on-disk persistence, no previous_response_id needed               | Good    |
 
 ---
 
-_Last updated: 2026-04-10 after Phase 1 completion_
+_Last updated: 2026-04-11 after v1.0 milestone_
