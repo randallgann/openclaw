@@ -1,0 +1,20 @@
+{
+  "granularity": "coarse",
+  "mode": "yolo",
+  "commit_docs": true,
+  "execution": "parallel",
+  "workflow": {
+    "research": true,
+    "plan_check": true,
+    "verifier": true,
+    "discuss_mode": "discuss",
+    "_auto_chain_active": false
+  },
+  "models": {
+    "executor": "sonnet",
+    "planner": "opus",
+    "researcher": "sonnet",
+    "synthesizer": "sonnet",
+    "roadmapper": "sonnet"
+  }
+}
